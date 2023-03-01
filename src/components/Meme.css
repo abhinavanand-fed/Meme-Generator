@@ -1,0 +1,132 @@
+/* Meme container styles */
+.meme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Image container styles */
+  .meme__img {
+    position: relative;
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  
+  /* Text container styles */
+  .meme__text {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    z-index: 1;
+  }
+  
+  /* Text close button styles */
+  .meme__text__close {
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    z-index: 2;
+    cursor: pointer;
+    top: -5px;
+    right: -5px;
+  }
+  
+  /* Text rotate button styles */
+  .meme__text__rotate {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -10px;
+    left: -10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  /* Text resize button styles */
+  .meme__text__resize {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: -10px;
+    right: -10px;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  /* Meme form styles */
+  .meme__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .meme__input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .meme__button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .meme__reset {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #f44336;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  /* File input styles */
+  .meme__file {
+    display: none;
+  }
+  
+  .meme__upload {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  /* Form error message styles */
+  .meme__error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Textbox resize helper styles */
+  .meme__text__resize__helper {
+    position: fixed;
+    z-index: -1;
+    opacity: 0;
+  }
+  

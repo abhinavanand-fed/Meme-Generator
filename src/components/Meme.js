@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import './Meme.css';
 
 export default function Meme() {
 	const api_url = "https://api.imgflip.com/get_memes";
